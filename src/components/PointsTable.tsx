@@ -1,4 +1,4 @@
-// components/PointsTable.tsx
+
 import { PointsTableEntry } from '../types';
 
 interface PointsTableProps {

@@ -1,4 +1,4 @@
-// components/Schedule.tsx
+
 import { useState } from 'react';
 import { Match } from '../types';
 
@@ -20,7 +20,7 @@ export default function Schedule({ schedule }: ScheduleProps) {
 
   const displayedMatches = showAll ? schedule : schedule.slice(0, 5);
 
-  // Group matches by date
+
   const matchesByDate: { [key: string]: Match[] } = {};
   displayedMatches.forEach(match => {
     const date = match.date;
