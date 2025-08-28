@@ -112,7 +112,7 @@ export default function MatchesPage() {
       <div className="w-full px-4 py-8">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-800">IPL Matches</h1>
-          <p className="text-gray-600 mt-2">Schedule, results and advanced filtering</p>
+          {/* <p className="text-gray-600 mt-2">Schedule, results and advanced filtering</p> */}
         </div>
 
         {/* Filters Section */}
